@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+#progressContainer{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    background-color: #f3f3f3;
+}
+#progressBar{
+    width: 0%;
+    height: 40px;
+    margin-top: auto;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+    background-color: #4caf50;
+}
+
+#startBtn{
+    padding: 10px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #4caf50;
+}
+#cancelbtn{
+    padding: 10px;
+    font-size: 20px;
+    border-style: none;
+    color: white;
+    border-radius: 10px;
+    background-color: red;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
